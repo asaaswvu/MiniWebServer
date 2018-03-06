@@ -19,7 +19,7 @@ public class ClientHandler extends Thread {
     PrintWriter outWriter;
     BufferedReader inReader;
     Socket socket;
-    String strMessage = "Click Here<br>\n" +
+    String strMessage = "This is me adding my name: Bond Ragsdale<br>\n" +
         "<button onclick='alert(\"Someone is a gullibull.\")'>CLICK</button>";
     
     public ClientHandler(Socket sock){
