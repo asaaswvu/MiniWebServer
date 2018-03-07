@@ -19,8 +19,8 @@ public class ClientHandler extends Thread {
     PrintWriter outWriter;
     BufferedReader inReader;
     Socket socket;
-    String strMessage = "Click Here<br>\n" +
-        "<button onclick='alert(\"Someone is a gullibull.\")'>CLICK</button>";
+    String strMessage = "Warning: Do NOT Click Here <br>\n" +
+        "<button onclick='alert(\"Wow! You are such a daredevil. Go you. Hooray! You win absolutely nothing.\")'>CLICK</button>";
     
     public ClientHandler(Socket sock){
         try{
