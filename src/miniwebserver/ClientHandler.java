@@ -45,7 +45,7 @@ public class ClientHandler extends Thread {
                     outWriter.println("Content-Type: text/html; charset=UTF-8");
                     outWriter.println("Connection: Closed");
                     outWriter.println("");
-                    outWriter.println("<html><head></head><body>" + strMessage + "</body></html>");
+                    outWriter.println("<html><head></head><body>" + "Faythe Maston"+ "</body></html>");
                     outWriter.flush();
                     System.out.println("Page Sent to " + socket.getInetAddress());  //IPv6
                     outWriter.close();
