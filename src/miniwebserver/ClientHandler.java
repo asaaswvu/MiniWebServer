@@ -20,7 +20,7 @@ public class ClientHandler extends Thread {
     BufferedReader inReader;
     Socket socket;
     String strMessage = "Click Here<br>\n" +
-        "<button onclick='alert(\"Sarah Averill needs a nap.\")'>CLICK</button>";
+        "<button onclick='alert(\"Sarah Averill needs a nap. Maybe three. And a drink. Maybe five.\")'>CLICK</button>";
     
     public ClientHandler(Socket sock){
         try{
